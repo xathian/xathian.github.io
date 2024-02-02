@@ -282,8 +282,8 @@ aside > section {
 }
 
 #avatar {
-  height: 64px;
-  width: 64px;
+  height: 128px;
+  width: 128px;
   border: 5px solid rgb(var(--background));
 
   background-color: rgb(var(--background));
