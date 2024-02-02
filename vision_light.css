@@ -1,0 +1,9 @@
+article, #notes, #comments {
+  --background: 255, 255, 255;
+  --title: 0, 0, 0;
+  --accent: 0, 184, 255;
+}
+
+.controls .like_button.liked::before {
+  color: #ff492f;
+}

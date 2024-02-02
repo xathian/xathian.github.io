@@ -1,0 +1,31 @@
+:root {
+  --post-padding: 15px;
+  --post-margin: 10px;
+
+  scroll-padding-top: 55px;
+}
+
+#blog-card {
+  margin-top: 0;
+}
+
+#blog-card, article, #notes, #comments {
+  border-radius: 0;
+}
+
+#notes {
+  max-height: min(918px, calc(100vh - var(--post-margin) - 55px));
+}
+
+#pagination {
+  padding: 0 var(--post-margin);
+}
+
+.post-author-portrait:not([hidden]) {
+  display: unset;
+}
+
+.post-attribution {
+  flex-direction: column;
+  align-items: flex-start;
+}
